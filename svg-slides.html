@@ -1,0 +1,25 @@
+<!DOCTYPE >
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style type="text/css">
+     body, svg {margin: 0; padding: 0; overflow: hidden; background-color: #ffffff;}
+    </style>
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="svg-slides.js"></script>
+    <script type="text/javascript">
+     window.onload = function() {
+       $.get('argentina.svg', {}, function(data) {
+         $('#wrapper').html(data);
+         SvgSlides.initialize();
+       }, 'text');
+     }
+    </script>
+    <title></title>
+  </head>
+  <body>
+    <comment></comment>
+    <div id="wrapper">
+    </div>
+  </body>
+</html>
