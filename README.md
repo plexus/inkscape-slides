@@ -8,7 +8,7 @@ This repo contains two things that have made this easier for me.
 * Some HTML+JS that loads an SVG in your browser and turns it into a slide deck
 * A Ruby script to batch export slides to PNG
 
-Another great use case it creating wireframes, exporting them and importing them
+Another great use case is creating wireframes, exporting them and importing them
 in your favorite prototyping tool.
 
 ## Preparing your SVG
@@ -52,7 +52,7 @@ or
 busybox httpd -f -p 4567
 ```
 
-(If you don't have Ruby or Busybox install try any of these
+(If you don't have Ruby or Busybox try any of these
 [million other oneliners](https://gist.github.com/willurd/5720255))
 
 Now open
