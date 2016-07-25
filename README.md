@@ -1,6 +1,6 @@
 # Inkscape Slides
 
-I quite like Inkscape, and I do a lot of conference talks and educationaly
+I quite like Inkscape, and I do a lot of conference talks and educational
 videos, and so sometimes I use Inkscape for making slides.
 
 This repo contains two things that have made this easier for me.
@@ -14,13 +14,14 @@ in your favorite prototyping tool.
 ## Preparing your SVG
 
 To create an SVG in Inkscape that you can use with these scripts, first choose
-your slide size (say 1280x720, or 1024x768), and set that as your document size
+your slide size (say 1280x720, or 1024x768), and set that as your document size.
+Make sure to set the "Unit" to "px" first.
 
 ![](img/inkscape-doc-props1.png)
 
 Then set up a grid with the same dimensions
 
-![](img/inkscape-doc-props1.png)
+![](img/inkscape-doc-props2.png)
 
 Now lay out your slides in columns and rows, keeping the actual document border as the top left slide.
 
@@ -57,6 +58,8 @@ busybox httpd -f -p 4567
 Now open
 [http://localhost:4567/svg-slides.html#0](http://localhost:4567/svg-slides.html)
 in your browser and use the left/right arrow keys to navigate.
+
+Here's what [the result looks like](http://arnebrasseur.net/talks/rubyconfar2013/).
 
 ## Using the Ruby Script
 
